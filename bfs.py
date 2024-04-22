@@ -1,3 +1,4 @@
+import collections
 def bfs (graph, root):
     visited, queue=set(), collections.deque([root])
     visited.add(root)
